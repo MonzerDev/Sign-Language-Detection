@@ -68,16 +68,9 @@ Requirements
 - PyTorch
 - Pandas
 
-Future Improvements
+Contributing
 
-- Extend the Model: Support for additional sign language gestures or other hand-based communication systems.
-- Optimize Performance: Improve the real-time performance for better accuracy and responsiveness.
-- Deploy the System: Deploy the detection system as a web application or mobile app.
-
-Acknowledgments
-
-- [MediaPipe](https://mediapipe.dev/) for hand tracking and landmark detection.
-- [PyTorch](https://pytorch.org/) for deep learning model implementation.
+Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
 
 Contact
 
