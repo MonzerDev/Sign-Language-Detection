@@ -2,7 +2,7 @@ Real-Time Sign Language Detection
 
 This project implements a real-time sign language detection system using a Convolutional Neural Network (CNN) and MediaPipe for hand landmark detection. The system captures live video input, processes hand gestures, and classifies them into corresponding sign language alphabets.
 
-Project Structure
+Project Structure:
 
 - `CNNModel.py`: Defines the Convolutional Neural Network (CNN) architecture used for classifying hand gestures.
 - `handLandMarks.py`: Handles the detection of hand landmarks using MediaPipe and processes them for use by the CNN model.
@@ -12,7 +12,7 @@ Project Structure
 - `testCNN.py`: Script for testing the performance of the trained CNN model on a test dataset.
 - `CNN_model_alphabet_SIBI.pth`: Pre-trained CNN model weights used for classification.
 
-How to Run the Project
+How to Run the Project:
 
 1. Install Dependencies
 
@@ -46,7 +46,7 @@ To test the performance of the trained CNN model on a test dataset, you can run:
 
 python testCNN.py
 
-How It Works
+How It Works:
 
 1. Hand Landmark Detection: 
    - The system uses MediaPipe to detect and track hand landmarks in real-time from the webcam feed.
@@ -60,7 +60,7 @@ How It Works
 4. Real-Time Feedback:
    - The classified gesture is displayed in real-time, providing immediate feedback to the user.
 
-Requirements
+Requirements:
 
 - Python 3.x
 - OpenCV
@@ -68,10 +68,10 @@ Requirements
 - PyTorch
 - Pandas
 
-Contributing
+Contributing:
 
 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
 
-Contact
+Contact:
 
 For any questions or suggestions, please feel free to contact me at [monzerkoukou@gmail.com].
